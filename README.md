@@ -19,6 +19,7 @@ From the project directory do
 
 ```bash
 wget https://www.dropbox.com/sh/amdyc6z8744hrl5/AADS8aPTbA-dRAUjvVfjTo2qa/movie_review
+mkdir ./dags/data
 mv movie_review ./dags/data/movie_review.csv
 ```
 

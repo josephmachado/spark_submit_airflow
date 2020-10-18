@@ -1,0 +1,1 @@
+This is the repository for blog at http://startdataengineering.com/post/how-to-submit-spark-jobs-to-emr-cluster-from-airflow/#clone-repository

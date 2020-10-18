@@ -14,7 +14,7 @@ from airflow.contrib.operators.emr_terminate_job_flow_operator import (
 )
 
 # Configurations
-BUCKET_NAME = "<your-bucket-name>"
+BUCKET_NAME = "<your-bucket-name>"  # replace this with your bucket name
 local_data = "./dags/data/movie_review.csv"
 s3_data = "data/movie_review.csv"
 local_script = "./dags/scripts/spark/random_text_classification.py"

@@ -47,7 +47,7 @@ SPARK_STEPS = [
         },
     },
     {
-        "Name": "Move clead data from HDFS to S3",
+        "Name": "Move clean data from HDFS to S3",
         "ActionOnFailure": "CANCEL_AND_WAIT",
         "HadoopJarStep": {
             "Jar": "command-runner.jar",
